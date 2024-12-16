@@ -1,0 +1,23 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+[project]
+name = "Lab02"
+version = "0.0.1"
+authors = [
+{ name="Zoe Mitchell", email="Zoe.Mitchell@ucalgary.ca" },
+]
+description="Lab on solving linear systems and spline functions using an iterative Gauss-Seidel algorithm"
+readme = "README.md"
+requires-python = ">=3.8"
+dependencies = [
+"numpy",
+"matplotlib",
+]
+classifiers = [
+"Programming Language :: Python :: 3",
+"Operating System :: OS Independent",
+"License :: OSI Approved :: GNU General Public License v3",
+]
+[project.urls]
+"Homepage" = "https://github.com/Zcmitchell04/goph419-f2024-lab02-stZM.git"
